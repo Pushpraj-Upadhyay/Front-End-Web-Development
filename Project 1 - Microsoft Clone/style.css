@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: border-box;
+}
+.navbar {
+    height: 54px;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logo {
+    height:35px;
+    width: 110px;
+}
+.logo {
+    background-image: url("logo_microsoft.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:35px;
+    margin-top: 0.4rem;
+    width: 100%;
+}
+.nav-content p {
+    display: inline;
+    font-size: 13px;
+    margin-right: 20px;
+}
+.nav-content {
+    width: 70%;
+    font-size: 0.85rem;
+
+}
+.more {
+    background-color: white;
+    border: none;
+    font-size: 13px;
+}
+.all {
+    background-color: white;
+    font-size: 0.85rem;
+    border: none;
+    font-size: 13px;
+}
+
+/* Navigation bar ends */
+/* Hero section begins */
+
+.hero_section {
+    background-image: url("hero.jpeg");
+    background-size: cover;
+    height: 500px;
+}
+.hero_text {
+    height: 250px;
+    width: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    justify-content: center;
+    text-align: left;
+    margin: 100px;
+    line-height: 1.5rem;
+}
+.sales {
+    color: #6B0E34;
+    font-weight: 550;
+}
+.discount {
+    font-size: 29px;
+    font-weight: 550;
+    line-height: 2.5rem;
+}
+.shop {
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    background-color: black;
+    padding: 10px 12px;
+}
+
+/* Hero section end */
+/* 2nd Phase starts --> Chhote wale symbol*/
+
+.suggestions {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 8rem;
+    margin-left: 15rem;
+    margin-right:15rem;
+}
+.sd_image {
+    background-image: url("surface.png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin-left: 3rem;
+}
+.sd_text {
+    text-decoration: underline;
+}
+.c_image {
+    background-image: url("xbox.jpeg");
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    margin-top: 0.6rem;
+    margin-left: 3rem;
+}
+.c_text {
+    text-decoration: underline;
+}
+.a_image {
+    background-image: url("keyboard.jpeg");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin-left: 3rem;
+}
+.a_text {
+    text-decoration: underline;
+}
+.b_image {
+    background-image: url("printer.png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin-left: 3rem;
+}
+.b_text {
+    text-decoration: underline;
+}
+.m_image {
+    background-image: url("windows.jpeg");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin-left: 3rem;
+}
+.m_text {
+    text-decoration: underline;
+}
+
+/*Shop section begin --> Laptop aur console wala section*/
+
+.main_section {
+    display: flex;
+    height: 450px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.8rem;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    width: 23%;
+}
+
+.box2 {
+    width: 23%;
+}
+.box3 {
+    width: 23%;
+}
+.box4 {
+    width: 23%;
+}
+.box1_img {
+    background-image: url("box1.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 250px;
+    margin-left: 20px;
+}
+.box2_img {
+    background-image: url("box2.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 250px;
+    margin-left: 20px;
+}
+.box3_img {
+    background-image: url("box3.jpeg");
+    background-size: cover;
+    height: 150px;
+    width: 250px;
+    margin-left: 20px;
+}
+.box4_img {
+    background-image: url("box4.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 250px;
+    margin-left: 20px;
+}
+.box_sale {
+    color: white;
+    background-color: #6B0E34;
+    display: inline;
+    font-weight: 600;
+    padding: 6px 12px;
+}
+
+.box1_text {
+    margin:15px;
+}
+.box2_text {
+    margin:15px;
+}
+.box3_text {
+    margin:15px;
+}
+.box4_text {
+    margin:15px;
+}
+.offers {
+    font-size: 24px;
+    font-weight: 620;
+    font-style: bold;
+}
+.buy {
+    font-weight: 600;
+    color:#6B0E34;
+}
+
+/* Yeh bhi khatam */
+
+/* Last section shuru */
+
+.last_main {
+    display: flex;
+    justify-content: center;
+}
+
+.holiday {
+    background-image: url("Highlight-Microsoft-Holiday-AI_VP4-1260x600.jpeg");
+    background-size: cover;
+    height:500px;
+    width: 1350px;
+    margin-top: 100px;
+}
+.h_text {
+    color: white;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 325px;
+    margin: 100px;
+}
+.h_title {
+    font-size: 30px;
+    margin: 0px 0px 16px;
+    font-weight: 600;
+}
+.h_cont {
+    margin: 0px 0px 24px;
+}
+.h_icon {
+    padding: 10px 12px;
+    margin: 8px 0px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* Follow us */
+
+.follow {
+    margin-top: 100px;
+    margin-left: 85px;
+    display: flex;
+    margin-bottom: 100px;
+}
+.follow p {
+    margin-right: 30px;
+}
+
+/* Footer shuru ho gya */
+
+footer {
+    height: 18rem;
+    background-color: rgb(232, 232, 232);
+}
+.footer1 {
+    height: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 2.5rem;
+}
+.division1 {
+    width: 17%;
+}
+.division2 {
+    width: 17%;
+}
+.division3 {
+    width: 17%;
+}
+.division4 {
+    width: 17%;
+}
+.division5 {
+    width: 17%;
+}
+.heading {
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(88, 88, 88);
+}
+.listt {
+    list-style-type: none;
+    color: grey;
+    font-size: 13px;
+}
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+}
+.last1 {
+    display: flex;
+    font-size: 13px;
+    color: grey;
+    margin-top: 15px;
+    margin-left: 70px;
+    align-items: center;
+}
+.last2 {
+    display: flex;
+    font-size: 13px;
+    color: grey;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.space {
+    margin-right: 50px;
+}
+/* Samapt */
