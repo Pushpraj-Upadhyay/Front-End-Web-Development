@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    padding: 0.5rem;
+    background-color: #081b31;
+    color: white;
+}
+.choices {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.choice {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #081b31;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #081b31;
+}
+
+.images {
+    height: 198px;
+    width: 198px;
+    border-radius: 50%;
+}
+
+.choice:hover {
+    opacity: 0.8;
+    border: 8px solid #081b31;
+}
+
+.scoreCard {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 40px;
+}
+
+#userWins {
+    font-size: 60px;
+    font-weight: 550;
+}
+
+#compWins {
+    font-size: 60px;
+    font-weight: 550;
+}
+#msg {
+    margin-top: 5rem;
+    padding: 5px 8px;
+    font-size: 30px;
+    color: white;
+    background-color: #081b31;
+    display: inline-block;
+    border-radius: 8px;
+}
