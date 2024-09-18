@@ -1,4 +1,4 @@
 # Front-End-Web-Development
-All the front-end projects will be shown in this repository.
+In this repo, projects are created using HTML, CSS and JavaScript only. All the projects are beginner friendly.
 <br>
 Author : Pushpraj-Upadhyay
